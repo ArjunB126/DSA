@@ -11,6 +11,13 @@ class Animal{
 };
 
 
+class Dog: public Animal {
+          public:
+          // Method / Function  Overriding 
+          void Speak(){
+            cout<< "Barking" << endl;
+          }
+};
 
 
 
